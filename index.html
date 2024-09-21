@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battery Indicator with History</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="battery">
+      <div class="battery-level" id="battery-level"></div>
+      <canvas id="batteryCanvas" width="200" height="100"></canvas>
+      <div class="battery-status" id="battery-status">Checking...</div>
+    </div>
+    <div class="battery-history" id="battery-history">
+      <h3>Battery History</h3>
+      <ul id="history-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
